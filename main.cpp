@@ -12,7 +12,7 @@ using namespace std;
 
 int main(int argc,char** argv)
 {
-	const string repository_name = "TestGit";
+	const string repository_name = "TestGit CMOS";
 	//print a massage
 	cout << "hello " << repository_name << endl;
 	
