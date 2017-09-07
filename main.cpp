@@ -15,6 +15,8 @@ int main(int argc,char** argv)
 	const string repository_name = "TestGit";
 	//print a massage
 	cout << "hello " << repository_name << endl;
+	
+	cout << "hello world!\n";
 
 	return 0;
 }
