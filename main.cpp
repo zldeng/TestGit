@@ -18,5 +18,7 @@ int main(int argc,char** argv)
 	
 	cout << "hello world!\n";
 
+	cout << "add a feature branch information\n";
+
 	return 0;
 }
