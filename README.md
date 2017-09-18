@@ -1,5 +1,7 @@
 # DeeplearningForTextClassification
+  
   本项目将实现目前深度学习在文本分类上的一些经典模型。代码使用python实现，基于Google Tensorflow机器学习库以及sklearn机器学习库。
+  
 ---
 # 各模型对应的论文
 ## CNN  
@@ -14,3 +16,5 @@ CNN在NLP中的使用可参考[深度学习与自然语言处理之四：卷积�
 基于HAM模型的文本分类方法对应的paper为[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)  
 
 ## Fasttext
+基于Fasttext的文本分类方法对应的paper为[Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759) 
+代码中仅仅实现了最简单的基于单词的词向量求平均，并未使用b-gram的词向量，所以文本分类效果低于facebook开源的的[facebook fasttext](https://github.com/facebookresearch/fastText)  
